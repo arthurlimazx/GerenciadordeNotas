@@ -2,7 +2,6 @@ from funcoes import *
 import emoji
 
 geralAlunos=[]
-alunosNomes=[]
 
 print(emoji.emojize("PROGRAMA PRINCIPAL :Santa_Claus:"))
 while True:
@@ -13,7 +12,6 @@ while True:
     escolha=int(input("Faça sua escolha : "))
     if escolha==1:
         nomeAluno=str(input("Digite o nome do aluno: "))
-        alunosNomes.append(nomeAluno)
         nota1=int(input(f"Agora digite a nota 1 do aluno {nomeAluno}: "))
         nota2=int(input(f"Agora digite a nota 2 do aluno {nomeAluno}: "))
         nota3=int(input(f"Agora digite a nota 3 do aluno {nomeAluno}: "))
